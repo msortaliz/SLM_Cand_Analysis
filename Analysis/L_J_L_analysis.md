@@ -1,4 +1,4 @@
-# Technical Interview Analysis: Luke James Lim
+# Technical Interview Analysis: Candidate L_J_L
 
 ---
 
@@ -6,7 +6,7 @@
 
 > **Mid-Level IT Operations / Digital Product Manager, ~10+ YOE total, ~4.5 years at P&G**
 >
-> **Key Signals:** Extensive pre-P&G experience across HPE, Infor, DXC Technology, and Capgemini — primarily in application management, SAP functional consulting, and technical support. Current role is "AMA and Europe Adoption Lead" within MOSS&S (Order-to-Cash/AR). Job profile is Digital Product Manager/Owner - Band 1. Skills are SAP-heavy and operations-focused. Holds ITIL 4 Foundation, PSM 1 (Scrum Master), and SAP certifications. Mixed performance history (Strong Impact FY22, FY23, FY25; Partial Impact FY24). Manager notes flag concerns about engagement, ownership, reliability, and communication style. Career interests lean toward Operations Manager / Project Manager roles.
+> **Key Signals:** Extensive pre-P&G experience across multiple companies — primarily in application management, SAP functional consulting, and technical support. Current role is "AMA and Europe Adoption Lead" within MOSS&S (Order-to-Cash/AR). Job profile is Digital Product Manager/Owner - Band 1. Skills are SAP-heavy and operations-focused. Holds ITIL 4 Foundation, PSM 1 (Scrum Master), and SAP certifications. Mixed performance history (Strong Impact FY22, FY23, FY25; Partial Impact FY24). Manager notes flag concerns about engagement, ownership, reliability, and communication style. Career interests lean toward Operations Manager / Project Manager roles.
 
 ---
 
@@ -21,11 +21,11 @@
 | **Containers (Docker, Kubernetes)** | 1 | No mention of container technologies. |
 | **Observability (Prometheus, Grafana, OpenTelemetry)** | 1 | No observability tooling mentioned. |
 | **CI/CD & DevOps Practices** | 1 | No DevOps or CI/CD experience mentioned. |
-| **ITIL (Incident/Problem/Change Mgmt)** | 4 | ITIL 4 Foundation certified (2022). ITSM listed as skill. Service delivery background at HPE and DXC strongly implies hands-on ITIL process experience. |
+| **ITIL (Incident/Problem/Change Mgmt)** | 4 | ITIL 4 Foundation certified (2022). ITSM listed as skill. Service delivery background strongly implies hands-on ITIL process experience. |
 | **Communication & Stakeholder Management** | 2 | "AMA and Europe Adoption Lead" title implies stakeholder engagement, but manager notes explicitly flag poor communication, lack of proactive participation, and underwhelming documentation. |
 | **Analytical & Problem-Solving** | 2 | Data Analytics listed as skill, but no specific examples. Manager notes indicate work is executed as "disconnected tasks" rather than cohesive problem-solving. |
 | **Incident Response & RCA** | 2 | Application management and technical support roles imply incident handling experience, but no SRE-style incident response or RCA documented. |
-| **Service Delivery & Operations** | 4 | Strong background — HPE Application Management Service Delivery (2.5 years), Infor Technical Support (1.5 years), current adoption lead role. Core strength area. |
+| **Service Delivery & Operations** | 4 | Strong background — Application Management Service Delivery (2.5 years), Technical Support (1.5 years), current adoption lead role. Core strength area. |
 
 **Overall Fit Score: 1.9 / 5** — Candidate has strong ITIL/service management foundations and extensive operations experience, but lacks nearly all technical skills required for the Cloud SRE-SLM role (cloud platforms, scripting, IaC, containers, observability, DevOps). The profile is heavily SAP/application-management oriented rather than cloud infrastructure. Additionally, documented behavioral concerns (reliability, engagement, ownership) are misaligned with the high-ownership, proactive mindset required for SRE.
 
@@ -51,7 +51,7 @@
 
 **Q5: Describe the ITIL Incident Management process.**
 - **Strong answer covers:** Detection → Logging → Categorization → Prioritization → Diagnosis → Resolution → Closure. Escalation paths (functional/hierarchical). Relationship to Problem Management for root cause.
-- **Follow-up if shallow:** "How did you handle major incidents at HPE or DXC? What was your role?"
+- **Follow-up if shallow:** "How did you handle major incidents in your previous roles? What was your role?"
 
 **Q6: What is a container and why are organizations adopting Kubernetes?**
 - **Strong answer covers:** Containers package app + dependencies, lightweight, portable. Kubernetes orchestrates containers at scale — scheduling, scaling, self-healing, service discovery. Benefits: consistency across environments, efficient resource use.
@@ -89,28 +89,28 @@
 
 ## Tier 3 — Experience-Specific Questions
 
-**Q1 [Re: AMA and Europe Adoption Lead at P&G MOSS&S]: What does "Adoption Lead" mean in your context? What are you driving adoption of?**
+**Q1 [Re: AMA and Europe Adoption Lead]: What does "Adoption Lead" mean in your context? What are you driving adoption of?**
 - **Strong answer covers:** Specific systems/processes being adopted, stakeholder management across regions (AMA = Americas, Europe), change management approach, metrics for adoption success, challenges with multi-region rollout.
 - **Red flags:** Cannot explain what "adoption" means concretely, or describes only task execution without strategy.
 - **Follow-up if shallow:** "What was the most challenging region/team to drive adoption with? How did you handle resistance?"
 
-**Q2 [Re: Application Management Service Delivery at HPE (2.5 years)]: Describe the services you managed and your approach to service delivery.**
+**Q2 [Re: Application Management Service Delivery (2.5 years)]: Describe the services you managed and your approach to service delivery.**
 - **Strong answer covers:** Specific applications supported, SLA targets maintained, team size/structure, incident volumes, ITIL processes followed, tools used (ticketing, monitoring), escalation handling, continuous improvement initiatives.
 - **Red flags:** Cannot recall specific metrics or processes; describes role passively.
 - **Follow-up if shallow:** "What was your SLA attainment rate? How did you handle SLA breaches?"
 
-**Q3 [Re: SAP FI Functional Consultant at DXC (2.5 years)]: What SAP FI modules did you work with and what was your role in implementations?**
+**Q3 [Re: SAP FI Functional Consultant (2.5 years)]: What SAP FI modules did you work with and what was your role in implementations?**
 - **Strong answer covers:** Specific SAP FI areas (GL, AP, AR, Asset Accounting), configuration activities, blueprinting, testing, cutover support, integration points with other modules, client interactions.
 - **Red flags:** Only mentions "support" without specific functional depth.
 - **Follow-up if shallow:** "Did you do configuration or were you primarily in support? What's the most complex FI issue you resolved?"
 
 **Q4 [Re: PSM 1 Certification & Scrum Master Role]: How have you applied Scrum Master practices in your current team?**
 - **Strong answer covers:** Facilitating ceremonies, removing blockers, coaching team on agile principles, managing sprint backlogs, tracking velocity, driving continuous improvement through retrospectives.
-- **Red flags:** Manager notes state "frequently provides no input during meetings" — directly contradicts effective Scrum Master behavior. Probe for specifics.
+- **Red flags:** Manager notes state limited meeting participation — directly contradicts effective Scrum Master behavior. Probe for specifics.
 - **Follow-up if shallow:** "Your manager noted limited meeting participation. How do you reconcile that with the Scrum Master role which requires facilitation?"
 
-**Q5 [Re: Technical Support Analyst at Infor (1.5 years)]: What products did you support and what was your troubleshooting approach?**
-- **Strong answer covers:** Specific Infor products (ERP, WMS, etc.), ticket volumes, severity levels handled, diagnostic methodology, knowledge base contributions, escalation to development teams.
+**Q5 [Re: Technical Support Analyst (1.5 years)]: What products did you support and what was your troubleshooting approach?**
+- **Strong answer covers:** Specific products (ERP, WMS, etc.), ticket volumes, severity levels handled, diagnostic methodology, knowledge base contributions, escalation to development teams.
 - **Red flags:** Generic "I answered tickets" without technical depth.
 - **Follow-up if shallow:** "What was the most technically complex issue you resolved? How did you diagnose it?"
 
@@ -146,7 +146,7 @@
 
 ## Summary Recommendation
 
-Luke James Lim brings substantial IT operations tenure (~10+ years) with strengths in ITIL-based service delivery, SAP functional consulting, and application management. He holds relevant certifications (ITIL 4, PSM 1). However, he has **no demonstrated experience** in cloud platforms, scripting/automation, IaC, containers, observability, or DevOps — which constitute the core technical requirements of the Cloud SRE-SLM role.
+This candidate brings substantial IT operations tenure (~10+ years) with strengths in ITIL-based service delivery, SAP functional consulting, and application management. They hold relevant certifications (ITIL 4, PSM 1). However, they have **no demonstrated experience** in cloud platforms, scripting/automation, IaC, containers, observability, or DevOps — which constitute the core technical requirements of the Cloud SRE-SLM role.
 
 Additionally, documented manager concerns about **reliability, engagement, proactive communication, and ownership** are significant risk factors for an SRE role that demands high accountability, incident leadership, and proactive problem-solving.
 
