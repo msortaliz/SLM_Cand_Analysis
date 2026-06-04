@@ -4,9 +4,24 @@
 
 ## Candidate Skill Level Assessment
 
-> **Junior SRE, ~1.5 YOE**
+> **Junior-to-Mid Level SRE, ~1.5 YOE**
 >
-> **Key Signals:** Hired Dec 2024 as Band 1 SRE (entry-level). No prior work experience or job history listed. Skills listed are broad categories (DevOps, SRE, System Administration, Computer Networking) without specific tool/project detail. Has ITIL 4 Foundation certification (Feb 2026). Received "Strong Impact" rating in FY 24/25, suggesting solid performance for level. Skill interests include SRE Observability and GE Proficy — indicating manufacturing/OT exposure. No certifications in cloud platforms (GCP/Azure) yet.
+> **Key Signals:** Hired Dec 2024 as Band 1 SRE (entry-level). Has ITIL 4 Foundation certification (Feb 2026). Received "Strong Impact" rating in FY 24/25. Screening responses reveal significantly more depth than the HR profile alone: implemented Prometheus & Grafana observability stack across 1000+ global servers, automated toil with Puppet and PowerShell (100+ hours saved annually), served as Incident Commander during critical incidents, maintained >90% SLA compliance, drove 30% annual cost reduction through metric optimization, and has Problem Management/Change Management/RCA experience. Skill interests include SRE Observability and GE Proficy.
+
+---
+
+## Screening Question Highlights
+
+| Topic | Key Details from Candidate |
+|-------|--------------------------|
+| **Motivation** | Strong alignment with cloud SRE path; sees this as next career step to specialize in cloud |
+| **SLA/Incident Command** | >90% SLA compliance for critical incidents; served as Incident Commander |
+| **Observability** | Implemented comprehensive Prometheus & Grafana stack across 1000+ global servers |
+| **Automation** | Puppet and PowerShell automation saving 100+ hours of toil annually |
+| **Cost Optimization** | 30% annual cost reduction through metric optimization |
+| **Process** | Problem Management, Change Management, RCA/CAP processes |
+| **Recognition** | "Team Builder Award" for collaborative leadership |
+| **Growth Goals** | Wants to deepen cloud-native skills (GCP/Azure), IaC, chaos engineering |
 
 ---
 
@@ -14,20 +29,20 @@
 
 | Skill / Requirement | Score (1-5) | Rationale |
 |---|---|---|
-| **SLA/SLO/SLI Management** | 2 | No explicit evidence of defining or managing SLOs/SLIs. May have exposure through SRE role but not demonstrated. |
-| **Cloud Platforms (GCP & Azure)** | 2 | Listed as SRE but no specific cloud platform projects, certifications, or services mentioned. |
-| **Scripting/Automation (Python, PowerShell, Go)** | 2 | "Software Engineering" skill listed but no languages or automation projects specified. |
-| **Infrastructure as Code (Terraform)** | 1 | No mention of Terraform or IaC experience. |
+| **SLA/SLO/SLI Management** | 4 | Claims >90% SLA compliance and Incident Commander role. Demonstrates active SLM practice. |
+| **Cloud Platforms (GCP & Azure)** | 2 | No specific cloud platform certifications or projects. Candidate acknowledges this is a growth area. |
+| **Scripting/Automation (Python, PowerShell, Go)** | 4 | Proven PowerShell and Puppet automation; 100+ hours of toil reduced annually. |
+| **Infrastructure as Code (Terraform)** | 2 | Uses Puppet (configuration management) but no Terraform/IaC evidence. Candidate wants to develop this. |
 | **Containers (Docker, Kubernetes)** | 1 | No mention of container technologies. |
-| **Observability (Prometheus, Grafana, OpenTelemetry)** | 2 | "SRE Observability" listed as a skill interest, suggesting awareness but not proven depth. |
-| **CI/CD & DevOps Practices** | 2 | "DevOps" listed as a skill; no specific tools (Jenkins, GitHub Actions, etc.) mentioned. |
-| **ITIL (Incident/Problem/Change Mgmt)** | 4 | ITIL 4 Foundation certified (Feb 2026). Strong signal of formal knowledge. |
-| **Communication & Stakeholder Management** | 3 | "Communication Relationship" listed as skill interest; "Strong Impact" rating suggests effective collaboration, but no direct evidence of leading service reviews or exec reporting. |
-| **Analytical & Problem-Solving** | 3 | Strong Impact rating and SRE role imply analytical capability; no specific RCA or data analytics examples provided. |
-| **Incident Response & RCA** | 2 | Expected in SRE role but no specific incidents, post-mortems, or on-call experience described. |
-| **Embedded Systems** | N/A | Listed as a skill — interesting background but not directly relevant to this role. |
+| **Observability (Prometheus, Grafana, OpenTelemetry)** | 4 | Implemented Prometheus & Grafana across 1000+ servers. Strong hands-on experience. |
+| **CI/CD & DevOps Practices** | 2 | "DevOps" listed as a skill; no specific CI/CD pipeline tools mentioned. |
+| **ITIL (Incident/Problem/Change Mgmt)** | 5 | ITIL 4 Foundation certified + demonstrated Incident Management, Problem Management, Change Management, and RCA/CAP in practice. |
+| **Communication & Stakeholder Management** | 4 | Incident Commander role, "Team Builder Award," articulate screening responses demonstrating clear communication. |
+| **Analytical & Problem-Solving** | 4 | RCA/CAP processes, metric optimization leading to 30% cost reduction, data-driven approach. |
+| **Incident Response & RCA** | 4 | Incident Commander experience, rigorous RCA and CAP processes mentioned explicitly. |
+| **Cost Optimization** | 4 | 30% annual cost reduction through metric optimization — strong signal. |
 
-**Overall Fit Score: 2.2 / 5** — Candidate has foundational alignment (SRE title, ITIL cert, relevant skill interests) but lacks demonstrated depth in cloud platforms, automation, IaC, and containers. Strong potential given performance rating and short tenure, but would need significant ramp-up for the SLM-heavy aspects of this role.
+**Overall Fit Score: 3.3 / 5 (Revised from 2.2)** — Screening responses reveal a much stronger candidate than the HR profile alone suggested. Proven SRE practitioner with hands-on observability (Prometheus/Grafana at scale), automation (PowerShell/Puppet), incident command, and SLM experience. Primary gaps remain in cloud platform depth (GCP/Azure), IaC (Terraform), and containers (Docker/K8s). With mentoring on cloud-specific skills, this candidate has strong potential for the role.
 
 ---
 
@@ -146,4 +161,4 @@
 
 ## Summary Recommendation
 
-This is an early-career SRE (~1.5 years) with strong performance indicators ("Strong Impact" rating) and relevant foundational knowledge (ITIL certified, SRE-titled role). However, the resume lacks specificity on cloud platforms, tools, automation, and technical depth required for the Cloud SRE-SLM role. The interview should focus heavily on **Tier 3 questions** to uncover actual hands-on experience that may not be reflected in the HR system data. If the candidate demonstrates practical cloud and automation skills in the interview that aren't captured in this profile, they could be a viable candidate with mentoring support.
+This is an early-career SRE (~1.5 years) with strong performance and significantly more hands-on depth than the HR profile alone suggests. Screening responses reveal proven experience with observability at scale (Prometheus/Grafana on 1000+ servers), automation (Puppet/PowerShell, 100+ hours saved), incident command, SLA management (>90% compliance), cost optimization (30% reduction), and formal ITIL processes. The candidate is articulate, motivated, and has a clear growth trajectory toward cloud specialization. Primary gaps are in cloud-native platforms (GCP/Azure services), IaC (Terraform), and containers (Docker/K8s). The interview should validate the screening claims with specifics (Tier 3 questions) and assess cloud platform readiness. With targeted mentoring on cloud-specific skills, this candidate is a **viable hire** for the Cloud SRE-SLM role.

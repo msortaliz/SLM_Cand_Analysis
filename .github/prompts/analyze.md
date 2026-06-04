@@ -1,21 +1,23 @@
 ---
-description: "End-to-end candidate analysis: convert PDF to markdown, generate interview question bank, and push changes to GitHub."
+description: "End-to-end candidate analysis: convert PDF/XLSX to markdown, generate interview question bank, and push changes to GitHub."
 name: "Analyze Candidate"
 agent: "agent"
 ---
 
 You are an automated candidate analysis pipeline. Execute the following steps in order:
 
-## Step 1 — Convert PDF to Markdown
+## Step 1 — Convert PDF or XLSX to Markdown
 
-Run the `convertpdf` prompt workflow:
+Accept a PDF or XLSX file as input and convert it to Markdown:
 
-1. Accept the PDF file as input.
-2. Extract the candidate's full name from the PDF content.
+1. Accept the input file (`.pdf` or `.xlsx`).
+2. Extract the candidate's full name from the file content.
 3. Rename the output file using only the first letter of each part of the candidate's name, separated by underscores, with a `.md` extension (e.g., "John Adam Smith" → `J_A_S.md`).
-4. Convert the PDF content into clean Markdown format.
+4. Convert the file content into clean Markdown format:
+   - **PDF:** Use a PDF text extraction library (e.g., pymupdf) to extract text.
+   - **XLSX:** Use an Excel library (e.g., openpyxl) to read all sheets and convert rows/columns into Markdown tables or structured content.
 5. Save the converted `.md` file into the `Candidates/` folder.
-6. Delete the original source PDF file after successful conversion.
+6. Delete the original source file after successful conversion.
 7. Use proper Markdown headings, tables, and lists.
 8. Remove any PII (phone numbers, email addresses, employee IDs, full names of other people, physical addresses).
 9. Keep only job-relevant information: role, skills, certifications, job history, performance ratings, career plans.
